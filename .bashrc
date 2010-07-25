@@ -160,7 +160,6 @@ alias a='git add'
 alias d='git diff'
 alias p='git push origin master'
 alias pu='git pull origin master'
-alias grc='git remote add origin git@github.com:mokshah/config.git'
 alias gpo='git push origin'
 alias gpom='git push origin master'
 alias gpuo='git pull origin'
@@ -214,7 +213,6 @@ po() { if [[ -n "$1" ]]; then popd "$1" 1>/dev/null && ls;
 ph() { pushd "$1" 1>/dev/null && ls; }
 
 alias chat='ssh -2 anapnea.net'
-
 alias p+='ph +1'
 alias p2='ph +2'
 alias p3='ph +3'
